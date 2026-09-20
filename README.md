@@ -1,16 +1,6 @@
 # TCEP latitude analysis
 
-This repository provides the workflow for constructing a global tropical cyclone extreme precipitation (TCEP) event catalogue and analysing its intensity changes during 1980–2023.
-
-It accompanies the manuscript **Poleward migration reinforces global tropical cyclone extreme precipitation intensification**.
-
-Dataset construction combines three-hourly MSWEP V2.8 precipitation at 0.1° resolution with IBTrACS V4 best-track data. Tropical cyclone (TC) precipitation is identified using the tropical cyclone precipitation feature (TCPF) approach ([Jiang et al., 2011](https://doi.org/10.1175/2011JAMC2662.1); [Guzman and Jiang, 2021](https://doi.org/10.1038/s41467-021-25685-2)). Contiguous wet grid cells within 1,000 km of each storm centre form precipitation features. Features with centroids within 500 km are attributed to that storm.
-
-TCEP is identified where precipitation attributed to a TC exceeds the local 99th percentile of all wet-period precipitation during 1980–2023. These extreme cells are grouped by storm and three-hourly timestep into TCEP events. Event intensity is the mean precipitation across the extreme cells in each event.
-
-The analysis adapts the frequency-weighted latitude-band decomposition of [Guo and Tan (2026)](https://doi.org/10.1073/pnas.2535524123) to mean TCEP intensity. It separates annual intensity changes into latitudinal redistribution, within-latitude-band intensity change, and their interaction. The redistribution component captures changes in event shares across latitude bands at fixed climatological band intensities. The within-band component captures intensity changes at fixed climatological event shares. The interaction component captures joint changes in event shares and band intensities. Applied separately to hemispheres and ocean basins, the framework quantifies how latitudinal redistribution contributes to changes in mean TCEP intensity.
-
-The repository includes dataset-construction and analysis code, plotting scripts, and derived CSV inputs supporting Figures 1–4, Figures S1–S5, and Tables S1–S3. The supplied inputs support reproduction of the analyses and plotted results. The documented raw-data workflow provides the processing steps for rebuilding the event catalogue from the original provider datasets.
+This project provides code to construct a global tropical cyclone extreme precipitation (TCEP) dataset using the tropical cyclone precipitation feature (TCPF) approach. It applies frequency-weighted latitude-band decomposition to quantify how within-band intensity changes and latitudinal redistribution contribute to changes in mean TCEP intensity. The package includes processing and analysis scripts, plotting code, and derived source data for reproducing the manuscript results.
 
 Version 1.1.0: [GitHub release](https://github.com/kelly-Liu44/TCEP-latitude-analysis/releases/tag/v1.1.0) and [Zenodo archive](https://doi.org/10.5281/zenodo.22857802).
 
@@ -102,11 +92,9 @@ inputs and numerical anchors without running the raw-field workflow.
 
 ## Data access, licenses and citation
 
-- MSWEP V2.8: <https://www.gloh2o.org/mswep/>; methodology:
-  [Beck et al. (2019)](https://doi.org/10.1175/BAMS-D-17-0138.1).
+- MSWEP V2.8: <https://www.gloh2o.org/mswep/>.
 - IBTrACS V4: NOAA/NCEI,
-  <https://doi.org/10.25921/82ty-9e16>;
-  [Knapp et al. (2010)](https://doi.org/10.1175/2009BAMS2755.1).
+  <https://doi.org/10.25921/82ty-9e16>.
 - Original source code: [MIT](LICENSE).
 - Precipitation-derived CSVs and figure products: see
   [DATA_LICENSE.md](DATA_LICENSE.md). The code license does not override MSWEP's
