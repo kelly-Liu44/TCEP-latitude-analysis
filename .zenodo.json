@@ -1,0 +1,29 @@
+{
+  "title": "TCEP latitude analysis",
+  "upload_type": "software",
+  "description": "Analysis code and figure-level source data accompanying the manuscript Poleward migration reinforces global tropical cyclone extreme precipitation intensification. The workflow uses MSWEP V2.8 and IBTrACS V4 during 1980–2023 and includes precipitation attribution, event construction, statistical analysis, figure and table generation, and tests. Original source code is MIT-licensed; precipitation-derived inputs remain subject to CC BY-NC 4.0 and applicable provider terms. Raw input archives and full intermediate catalogues are obtained separately.",
+  "creators": [
+    {
+      "name": "Liu, Luyi",
+      "orcid": "0009-0002-9443-1129"
+    }
+  ],
+  "version": "1.1.0",
+  "access_right": "open",
+  "license": "cc-by-nc-4.0",
+  "keywords": [
+    "tropical cyclone",
+    "extreme precipitation",
+    "poleward migration",
+    "MSWEP V2.8",
+    "IBTrACS",
+    "latitudinal redistribution"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/kelly-Liu44/TCEP-latitude-analysis",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

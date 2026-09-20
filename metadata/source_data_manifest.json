@@ -1,0 +1,167 @@
+[
+  {
+    "path": "figures/Fig01_global_trends/data/Fig01_annual_series.csv",
+    "sha256": "96c9e1df8af6d79c7cbe3e991a2d3ff82bbaf79671e81312d77ed5ab52eb649b",
+    "bytes": 17289
+  },
+  {
+    "path": "figures/Fig01_global_trends/data/Fig01_spatial_trend_1deg.csv",
+    "sha256": "74386eff6db214dfb954f063a970893b5e126eb97921b5bf4b408057d9836cf8",
+    "bytes": 885955
+  },
+  {
+    "path": "figures/Fig02_latitude_decomposition/data/Fig02_annual_NH.csv",
+    "sha256": "350e4e848009ca7ffbddca686f1b20aa0b6e5609a2e83fe422503b21b8ad8fe3",
+    "bytes": 5823
+  },
+  {
+    "path": "figures/Fig02_latitude_decomposition/data/Fig02_annual_SH.csv",
+    "sha256": "b1e609ffb0cc286c56cb3012256eced966a9ecd66d28416dc8e845dd5da30942",
+    "bytes": 5787
+  },
+  {
+    "path": "figures/Fig02_latitude_decomposition/data/Fig02_decomposition_by_latitude_band.csv",
+    "sha256": "9e643932fbe1907d85e58bc7bb7a92d298c6abce0a53f71850d8563789d3305a",
+    "bytes": 2265
+  },
+  {
+    "path": "figures/Fig03_basin_intensity_trends/data/Fig03_annual_basin_series.csv",
+    "sha256": "0c94c3f9931e872880b06a8255114111c02be9bf8e26b35b745539da12d4a73a",
+    "bytes": 34201
+  },
+  {
+    "path": "figures/Fig04_basin_decomposition/data/Fig04_annual_basin_series.csv",
+    "sha256": "0c94c3f9931e872880b06a8255114111c02be9bf8e26b35b745539da12d4a73a",
+    "bytes": 34201
+  },
+  {
+    "path": "figures/Fig04_basin_decomposition/data/Fig04_decomposition_by_basin_and_band.csv",
+    "sha256": "440d70b00e48f565f7abc59f889d4b565b9ac4b7af2056da7d42020963259c93",
+    "bytes": 6156
+  },
+  {
+    "path": "figures/FigS01_TCEP_definition/FigS01_TCEP_definition_original.jpg",
+    "sha256": "0934a41ae75d419d09b0cf5223267697282cb7eafab2c69dd56922f0c56a84c9",
+    "bytes": 29705
+  },
+  {
+    "path": "figures/FigS02_TCEP_identification/data/FigS02_Walaka_TCPF.csv",
+    "sha256": "5fffeb2b189335302214d82ba514720c29a6c90561dcd3b179e579292d7b7efe",
+    "bytes": 1400923
+  },
+  {
+    "path": "figures/FigS02_TCEP_identification/data/FigS02_Walaka_extreme_cells.csv",
+    "sha256": "370547780087db7234b820acad368a731fc7c92eada4981ebf75e77c16714bc5",
+    "bytes": 158956
+  },
+  {
+    "path": "figures/FigS03_poleward_shifts/data/FigS03_annual_mean_latitude.csv",
+    "sha256": "b933a5fda511e99afd922465eec562e6cce43973fadd2ecbb7d97a47c6568c68",
+    "bytes": 23893
+  },
+  {
+    "path": "figures/FigS04_intensity_distributions/data/FigS04_quantiles_NH.csv",
+    "sha256": "c0ab971ab49a736fd849f5b39443b8fcd7e904f6fa67851320cf15ca00ddf4c4",
+    "bytes": 334
+  },
+  {
+    "path": "figures/FigS04_intensity_distributions/data/FigS04_quantiles_SH.csv",
+    "sha256": "8fa1cc6ef9e6660a43195b0f434dcae04a0b8fe51c25d018d62ee9ce84762eff",
+    "bytes": 314
+  },
+  {
+    "path": "figures/FigS04_intensity_distributions/data/FigS04_samples_NH.csv",
+    "sha256": "394b104bb61a5e4e3fac652619494ec7be0e4346fdd10b43bb22cd415f5c83a3",
+    "bytes": 4589179
+  },
+  {
+    "path": "figures/FigS04_intensity_distributions/data/FigS04_samples_SH.csv",
+    "sha256": "7518e2144e78548459b366be83252f4d0bcfb9dfc3600854e09954016eed4990",
+    "bytes": 2197536
+  },
+  {
+    "path": "figures/FigS05_land_ocean/data/FigS05_annual_land_ocean.csv",
+    "sha256": "c859aacf52eb44d466c4499277378c64b3938c3499c60ea13842f8ea2b4046e4",
+    "bytes": 24307
+  },
+  {
+    "path": "figures/FigS05_land_ocean/data/FigS05_annual_surface_band.csv",
+    "sha256": "37f74f5809c3a3e277dc24fe848c7941b62b4d83cad7a6625e1e3cad03dc01ff",
+    "bytes": 27084
+  },
+  {
+    "path": "figures/FigS05_land_ocean/data/FigS05_land_ocean_decomposition.csv",
+    "sha256": "3179141d27bbc31043a7457cd13e3a7f622e4a2452f7260758a287bcfc562711",
+    "bytes": 1669
+  },
+  {
+    "path": "tables/TableS01_latitude_decomposition/data/TableS01A_hemisphere_components.csv",
+    "sha256": "07d72ec7a63554c9bfe3bae4dca5ab2d93fbba385d78312d458ebeff2021c51f",
+    "bytes": 971
+  },
+  {
+    "path": "tables/TableS01_latitude_decomposition/data/TableS01B_latitude_band_components.csv",
+    "sha256": "8a7a2afb97c61d3b1fb6841f0d71593031d11903504021748b89ff0bb4416027",
+    "bytes": 2278
+  },
+  {
+    "path": "tables/TableS01_latitude_decomposition/data/TableS01C_intensity_baselines.csv",
+    "sha256": "62d6ad0f43b4aaca75aaf8f0975a8b10eba253a6f41507a300536999c23c879c",
+    "bytes": 516
+  },
+  {
+    "path": "tables/TableS01_latitude_decomposition/data/TableS01_source_annual_bands_NH.csv",
+    "sha256": "e7c32c9f19cb832a25ac7b5da3d4b17728b7f01c2063ec0af23773f3ced2f5f9",
+    "bytes": 14010
+  },
+  {
+    "path": "tables/TableS01_latitude_decomposition/data/TableS01_source_annual_bands_SH.csv",
+    "sha256": "38a09290f09d69418c6ed5974ea1b0016090baa4629217ec28f4a47dec8e9faf",
+    "bytes": 13936
+  },
+  {
+    "path": "tables/TableS01_latitude_decomposition/data/TableS01_source_bootstrap_intervals_NH.csv",
+    "sha256": "fd9bea75e95db7ac5177545fb7d2b9dc279d4964fbad051f33bc95048307bf6d",
+    "bytes": 307
+  },
+  {
+    "path": "tables/TableS01_latitude_decomposition/data/TableS01_source_bootstrap_intervals_SH.csv",
+    "sha256": "31ff7993de69e04e00c5aa0a73a92cc962fedb0e63acae035cb2e788de69e80f",
+    "bytes": 306
+  },
+  {
+    "path": "tables/TableS01_latitude_decomposition/data/TableS01_source_component_trends_NH.csv",
+    "sha256": "128f8b6b3fcd799191f4673e9261837f58b3be01dd0630d6bb2a088f667f9830",
+    "bytes": 287
+  },
+  {
+    "path": "tables/TableS01_latitude_decomposition/data/TableS01_source_component_trends_SH.csv",
+    "sha256": "e9fd315a9edb6efa47ceca1f5711b67549ee5b374acd8803aee14e046757a2f4",
+    "bytes": 287
+  },
+  {
+    "path": "tables/TableS02_basin_decomposition/data/TableS02_basin_band_components.csv",
+    "sha256": "55afd02ef0cf9a862e83d47628c5b79200782f3d23baf73fe890dd12ec2ab892",
+    "bytes": 6313
+  },
+  {
+    "path": "tables/TableS02_basin_decomposition/data/TableS02_event_counts.csv",
+    "sha256": "6ae6e60934eb54e80167fbd733e10b9ad8dd91de5f96a3ad446503eec70f1b5d",
+    "bytes": 304
+  },
+  {
+    "path": "tables/TableS03_land_ocean/data/TableS03A_surface_components.csv",
+    "sha256": "dc86577a38306916c75794c1211debec5aaa2a2dac4e55c921fca60c96209086",
+    "bytes": 521
+  },
+  {
+    "path": "tables/TableS03_land_ocean/data/TableS03B_surface_band_components.csv",
+    "sha256": "9c89b366e6a4c37e304e4ba889b13c2b7a9ff3917dbe427b580e7e8d821d9d10",
+    "bytes": 1699
+  },
+  {
+    "path": "tables/TableS03_land_ocean/data/TableS03_annual_component_series.csv",
+    "sha256": "81d2c388e5705fb9fb6a1ee81a80bbbab3fbc7a28a8db03d42642111e07e8e23",
+    "bytes": 20121
+  }
+]

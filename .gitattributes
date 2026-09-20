@@ -1,0 +1,7 @@
+# Keep source-data and archive hashes identical across operating systems.
+# Python formatting is handled by Ruff, not by implicit Git newline conversion.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.jpg binary
+*.png binary
+*.tif binary
+*.pdf binary

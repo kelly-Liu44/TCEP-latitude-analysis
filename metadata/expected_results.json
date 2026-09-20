@@ -1,0 +1,127 @@
+{
+  "period": [
+    1980,
+    2023
+  ],
+  "events": 255771,
+  "extreme_cell_records": 110525522,
+  "valid_map_cells": 16536,
+  "significant_map_cells": 1191,
+  "global_and_hemisphere_trends": [
+    {
+      "domain": "GLOBAL",
+      "trend_per_decade": 0.1979312904988497,
+      "p_value": 0.00651366482789
+    },
+    {
+      "domain": "NH",
+      "trend_per_decade": 0.1780014590308196,
+      "p_value": 0.0362909653576908
+    },
+    {
+      "domain": "SH",
+      "trend_per_decade": 0.2530610644345977,
+      "p_value": 0.0082949469109752
+    }
+  ],
+  "hemisphere_components": [
+    {
+      "HEMISPHERE": "NH",
+      "COMPONENT": "TOTAL",
+      "THEIL_SEN_MM_3H_PER_DECADE": 0.1780014590308204,
+      "MANN_KENDALL_P": 0.0362909653576908,
+      "CI_LOWER_MM_3H_PER_DECADE": -0.0664501887690198,
+      "CI_UPPER_MM_3H_PER_DECADE": 0.4161822046116501,
+      "bootstrap_significant": false
+    },
+    {
+      "HEMISPHERE": "NH",
+      "COMPONENT": "REDISTRIBUTION",
+      "THEIL_SEN_MM_3H_PER_DECADE": 0.0487653241493134,
+      "MANN_KENDALL_P": 0.00651366482789,
+      "CI_LOWER_MM_3H_PER_DECADE": 0.0159725268714559,
+      "CI_UPPER_MM_3H_PER_DECADE": 0.0826104550401366,
+      "bootstrap_significant": true
+    },
+    {
+      "HEMISPHERE": "NH",
+      "COMPONENT": "WITHIN_BAND",
+      "THEIL_SEN_MM_3H_PER_DECADE": 0.1343035359356104,
+      "MANN_KENDALL_P": 0.0702255741505481,
+      "CI_LOWER_MM_3H_PER_DECADE": -0.0710665674416123,
+      "CI_UPPER_MM_3H_PER_DECADE": 0.3484866588040971,
+      "bootstrap_significant": false
+    },
+    {
+      "HEMISPHERE": "NH",
+      "COMPONENT": "INTERACTION",
+      "THEIL_SEN_MM_3H_PER_DECADE": 0.0107208436800384,
+      "MANN_KENDALL_P": 0.1538363086698978,
+      "CI_LOWER_MM_3H_PER_DECADE": -4.5609111260483685e-05,
+      "CI_UPPER_MM_3H_PER_DECADE": 0.0212565678141636,
+      "bootstrap_significant": false
+    },
+    {
+      "HEMISPHERE": "SH",
+      "COMPONENT": "TOTAL",
+      "THEIL_SEN_MM_3H_PER_DECADE": 0.2530610644345991,
+      "MANN_KENDALL_P": 0.0082949469109752,
+      "CI_LOWER_MM_3H_PER_DECADE": -0.0263180611431326,
+      "CI_UPPER_MM_3H_PER_DECADE": 0.5568430406444967,
+      "bootstrap_significant": false
+    },
+    {
+      "HEMISPHERE": "SH",
+      "COMPONENT": "REDISTRIBUTION",
+      "THEIL_SEN_MM_3H_PER_DECADE": 0.0392061386792632,
+      "MANN_KENDALL_P": 0.0873934811298024,
+      "CI_LOWER_MM_3H_PER_DECADE": -0.0160694408205406,
+      "CI_UPPER_MM_3H_PER_DECADE": 0.0980435297550559,
+      "bootstrap_significant": false
+    },
+    {
+      "HEMISPHERE": "SH",
+      "COMPONENT": "WITHIN_BAND",
+      "THEIL_SEN_MM_3H_PER_DECADE": 0.2148727020775536,
+      "MANN_KENDALL_P": 0.0254008114721187,
+      "CI_LOWER_MM_3H_PER_DECADE": -0.0466279704605932,
+      "CI_UPPER_MM_3H_PER_DECADE": 0.4994562041857066,
+      "bootstrap_significant": false
+    },
+    {
+      "HEMISPHERE": "SH",
+      "COMPONENT": "INTERACTION",
+      "THEIL_SEN_MM_3H_PER_DECADE": -0.0039564054075089,
+      "MANN_KENDALL_P": 0.510906363666696,
+      "CI_LOWER_MM_3H_PER_DECADE": -0.0203614958070036,
+      "CI_UPPER_MM_3H_PER_DECADE": 0.0128507121958538,
+      "bootstrap_significant": false
+    }
+  ],
+  "latitude_trends": [
+    {
+      "record_type": "track",
+      "domain": "NH",
+      "trend_per_decade": 0.6312276556997447,
+      "p_value": 2.2564442460177383e-05
+    },
+    {
+      "record_type": "track",
+      "domain": "SH",
+      "trend_per_decade": 0.0916862822846701,
+      "p_value": 0.2882368013513606
+    },
+    {
+      "record_type": "event",
+      "domain": "NH",
+      "trend_per_decade": 0.5631959167393772,
+      "p_value": 9.069709927751748e-05
+    },
+    {
+      "record_type": "event",
+      "domain": "SH",
+      "trend_per_decade": 0.1514866568825461,
+      "p_value": 0.1721193819033327
+    }
+  ]
+}

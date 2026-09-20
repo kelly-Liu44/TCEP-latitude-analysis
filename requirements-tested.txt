@@ -1,0 +1,11 @@
+# Scientific package versions in the validated Python 3.11 environment.
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.14.1
+xarray==2026.4.0
+netCDF4==1.7.4
+pyarrow==24.0.0
+matplotlib==3.9.2
+cartopy==0.25.0
+global-land-mask==1.0.0
+pyproj==3.7.0

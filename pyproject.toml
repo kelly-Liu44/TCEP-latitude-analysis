@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TCEP-latitude-analysis"
+version = "1.1.0"
+description = "Tropical cyclone extreme precipitation intensity trends and poleward redistribution"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Luyi Liu"}]
+dependencies = [
+  "numpy>=1.24", "pandas>=2.0", "scipy>=1.10", "xarray>=2023.1",
+  "netCDF4>=1.6", "pyarrow>=12.0",
+]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.7", "cartopy>=0.22", "global-land-mask>=1.0", "pyproj>=3.5"]
+test = ["pytest>=8", "ruff>=0.9", "pypdf>=5", "PyYAML>=6"]
+
+[project.urls]
+Repository = "https://github.com/kelly-Liu44/TCEP-latitude-analysis"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82", "F401", "F841"]
