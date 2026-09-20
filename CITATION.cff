@@ -12,12 +12,19 @@ authors:
 license: MIT
 repository-code: "https://github.com/kelly-Liu44/TCEP-latitude-analysis"
 abstract: >-
-  Reproducible MSWEP V2.8 and IBTrACS V4 analysis of tropical cyclone extreme
-  precipitation intensity and its latitudinal redistribution during 1980–2023.
-  Includes processing code, manuscript figure inputs, table generation and tests.
+  Workflow for constructing a global tropical cyclone extreme precipitation
+  (TCEP) event catalogue for 1980–2023 using MSWEP V2.8, IBTrACS V4, the tropical
+  cyclone precipitation feature (TCPF) approach, and local wet-period
+  99th-percentile thresholds. A frequency-weighted latitude-band decomposition
+  separates annual mean intensity changes into latitudinal redistribution,
+  within-latitude-band intensity change, and their interaction. The repository
+  provides processing and analysis code, plotting scripts, and derived inputs
+  for the manuscript figures and tables. Raw archives and complete intermediate
+  catalogues are not redistributed.
 keywords:
   - tropical cyclones
   - extreme precipitation
   - poleward migration
   - MSWEP
   - latitude decomposition
+  - TCPF
