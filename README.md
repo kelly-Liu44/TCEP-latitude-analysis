@@ -5,6 +5,9 @@ global tropical cyclone extreme precipitation intensification**.
 
 TCEP denotes tropical cyclone extreme precipitation.
 
+Version 1.1.0: [GitHub release](https://github.com/kelly-Liu44/TCEP-latitude-analysis/releases/tag/v1.1.0)
+and [Zenodo archive](https://doi.org/10.5281/zenodo.22857802).
+
 The study covers 1980–2023 and uses **MSWEP V2.8**, IBTrACS V4, a connected-feature
 precipitation attribution method, local wet-period POT99 thresholds, and a
 frequency-weighted latitude-band decomposition. This repository reproduces

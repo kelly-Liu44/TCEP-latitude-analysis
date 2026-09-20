@@ -3,6 +3,8 @@ message: "Please cite this software when using the code or supplied analysis inp
 type: software
 title: "TCEP latitude analysis"
 version: 1.1.0
+date-released: 2026-09-20
+doi: "10.5281/zenodo.22857802"
 authors:
   - family-names: Liu
     given-names: Luyi
