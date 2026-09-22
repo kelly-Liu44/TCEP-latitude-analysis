@@ -8,8 +8,7 @@
       "orcid": "0009-0002-9443-1129"
     }
   ],
-  "version": "1.1.0",
-  "doi": "10.5281/zenodo.22857802",
+  "version": "1.1.1",
   "access_right": "open",
   "license": "cc-by-nc-4.0",
   "keywords": [
@@ -25,7 +24,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/kelly-Liu44/TCEP-latitude-analysis/releases/tag/v1.1.0",
+      "identifier": "https://github.com/kelly-Liu44/TCEP-latitude-analysis/releases/tag/v1.1.1",
       "relation": "isIdenticalTo",
       "resource_type": "software",
       "scheme": "url"

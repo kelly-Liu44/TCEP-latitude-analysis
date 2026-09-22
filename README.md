@@ -2,7 +2,7 @@
 
 This project provides code to construct a global tropical cyclone extreme precipitation (TCEP) dataset using the tropical cyclone precipitation feature (TCPF) approach. It applies frequency-weighted latitude-band decomposition to quantify how within-band intensity changes and latitudinal redistribution contribute to changes in mean TCEP intensity. The package includes processing and analysis scripts, plotting code, and derived source data for reproducing the manuscript results.
 
-Version 1.1.0: [GitHub release](https://github.com/kelly-Liu44/TCEP-latitude-analysis/releases/tag/v1.1.0) and [Zenodo archive](https://doi.org/10.5281/zenodo.22857802).
+Version 1.1.1: [GitHub release](https://github.com/kelly-Liu44/TCEP-latitude-analysis/releases/tag/v1.1.1) and [Zenodo archive](https://doi.org/10.5281/zenodo.22857799).
 
 ## Start here
 

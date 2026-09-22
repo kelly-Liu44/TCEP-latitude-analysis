@@ -1,6 +1,7 @@
 """Figure 1 in the manuscript five-panel GRL layout."""
 
 from pathlib import Path
+import json
 import sys
 import numpy as np
 import pandas as pd
@@ -173,14 +174,14 @@ def main():
     gl.left_labels = False
     gl.xlabel_style = {"size": 7}
     gl.ylabel_style = {"size": 7}
-    # Exploratory positive-trend centres; boxes are display annotations only.
-    centres = [
-        (1, 60, 15, 20, 15),
-        (2, -70, 30, 30, 15),
-        (3, 40, -20, 40, 20),
-        (4, 140, 35, 30, 10),
-    ]
-    for number, lon0, lat0, width, height in centres:
+    # Display annotations only; names and bounds share one validated metadata source.
+    regions = json.loads((HERE / "Fig01_boxes.json").read_text(encoding="utf-8"))
+    for region in regions:
+        number = region["box"]
+        lon0 = region["lon_min"]
+        lat0 = region["lat_min"]
+        width = region["lon_max"] - lon0
+        height = region["lat_max"] - lat0
         ax.add_patch(
             Rectangle(
                 (lon0, lat0),

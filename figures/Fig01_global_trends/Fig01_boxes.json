@@ -1,0 +1,38 @@
+[
+  {
+    "box": 1,
+    "name": "Arabian Sea and northwestern Indian Ocean",
+    "lon_min": 60,
+    "lon_max": 80,
+    "lat_min": 15,
+    "lat_max": 30,
+    "caption_coordinates": "15°–30°N, 60°–80°E"
+  },
+  {
+    "box": 2,
+    "name": "western North Atlantic",
+    "lon_min": -70,
+    "lon_max": -40,
+    "lat_min": 30,
+    "lat_max": 45,
+    "caption_coordinates": "30°–45°N, 70°–40°W"
+  },
+  {
+    "box": 3,
+    "name": "southern tropical Indian Ocean",
+    "lon_min": 40,
+    "lon_max": 80,
+    "lat_min": -20,
+    "lat_max": 0,
+    "caption_coordinates": "20°S–0°, 40°–80°E"
+  },
+  {
+    "box": 4,
+    "name": "western North Pacific east of Japan",
+    "lon_min": 140,
+    "lon_max": 170,
+    "lat_min": 35,
+    "lat_max": 45,
+    "caption_coordinates": "35°–45°N, 140°–170°E"
+  }
+]

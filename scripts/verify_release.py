@@ -93,6 +93,19 @@ def verify(bootstrap=False):
         int((spatial.p_value < 0.05).sum()),
         expected["significant_map_cells"],
     )
+    figure1_dir = ROOT / "figures/Fig01_global_trends"
+    regions = json.loads((figure1_dir / "Fig01_boxes.json").read_text(encoding="utf-8"))
+    caption = (figure1_dir / "Fig01_caption.txt").read_text(encoding="utf-8")
+    assert [region["box"] for region in regions] == [1, 2, 3, 4]
+    for region in regions:
+        assert region["lon_min"] < region["lon_max"]
+        assert region["lat_min"] < region["lat_max"]
+        expected_phrase = (
+            f'{region["name"]} (box {region["box"]}; '
+            f'{region["caption_coordinates"]})'
+        )
+        assert expected_phrase in caption
+    checks.append("Figure 1 box metadata matches caption")
     lat = read("figures/FigS03_poleward_shifts/data/FigS03_annual_mean_latitude.csv")
     for item in expected["latitude_trends"]:
         q = lat[

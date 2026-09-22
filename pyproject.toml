@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "TCEP-latitude-analysis"
-version = "1.1.0"
+version = "1.1.1"
 description = "Tropical cyclone extreme precipitation intensity trends and poleward redistribution"
 readme = "README.md"
 requires-python = ">=3.10"
